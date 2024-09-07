@@ -470,12 +470,10 @@ export function MyHomePage() {
                       />
                       <AvatarFallback>JS</AvatarFallback>
                     </Avatar>
-                    /* eslint-disable react/no-unescaped-entities */
                     <div>
                       <h6 className="text-lg font-medium">Jane Smith</h6>
                       <p className="text-muted-foreground">Customer</p>
                     </div>
-                    /* eslint-enable react/no-unescaped-entities */
                   </div>
                   <p className="text-muted-foreground">
                     "I am thoroughly impressed by the meticulous attention to
