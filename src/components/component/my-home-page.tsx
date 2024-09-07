@@ -54,7 +54,7 @@ export function MyHomePage() {
           prefetch={false}
         >
           <Image
-            src={"./logo.png"}
+            src='./logo.png"'
             alt="K-ommerce Logo"
             className="h-10 w-10 glowing-button"
           />
@@ -306,7 +306,7 @@ export function MyHomePage() {
               <div className="relative overflow-hidden rounded-glass bg-glass shadow-glass backdrop-blur-glass border-glass">
                 <div className="relative z-10 bg-background/80 backdrop-blur-lg rounded-lg p-6 shadow-lg">
                   <Image
-                    src="./whiteshirt.png"
+                    src='./whiteshirt.png"'
                     width="550"
                     height="550"
                     alt="Hero Product"
@@ -366,7 +366,7 @@ export function MyHomePage() {
               <Card>
                 <CardHeader>
                   <Image
-                    src="./colorful.png"
+                    src='./colorful.png"'
                     width="300"
                     height="300"
                     alt="Product Image"
@@ -386,7 +386,7 @@ export function MyHomePage() {
               <Card>
                 <CardHeader>
                   <Image
-                    src="./leatherbagpack.png"
+                    src='./leatherbagpack.png"'
                     width="300"
                     height="300"
                     alt="Product Image"
@@ -404,7 +404,7 @@ export function MyHomePage() {
               <Card>
                 <CardHeader>
                   <Image
-                    src="./denimjacket.png"
+                    src='./denimjacket.png"'
                     width="300"
                     height="300"
                     alt="Product Image"
@@ -422,7 +422,7 @@ export function MyHomePage() {
               <Card>
                 <CardHeader>
                   <Image
-                    src="./scarf.png"
+                    src='./scarf.png"'
                     width="300"
                     height="300"
                     alt="Product Image"
@@ -459,7 +459,7 @@ export function MyHomePage() {
                   <div className="flex items-center space-x-6 ">
                     <Avatar>
                       <AvatarImage
-                        src="./user1.png"
+                        src='./user1.png"'
                         className="w-12 h-12 rounded-full object-cover"
                       />
                       <AvatarFallback>JD</AvatarFallback>
@@ -482,7 +482,7 @@ export function MyHomePage() {
                   <div className="flex items-center space-x-6">
                     <Avatar>
                       <AvatarImage
-                        src="./user2.png"
+                        src='./user2.png"'
                         className="w-12 h-12 rounded-full object-cover"
                       />
                       <AvatarFallback>JS</AvatarFallback>
@@ -505,7 +505,7 @@ export function MyHomePage() {
                   <div className="flex items-center space-x-6 ">
                     <Avatar>
                       <AvatarImage
-                        src="./user3.png"
+                        src='./user3.png"'
                         className="w-12 h-12 rounded-full object-cover"
                       />
                       <AvatarFallback>MJ</AvatarFallback>
