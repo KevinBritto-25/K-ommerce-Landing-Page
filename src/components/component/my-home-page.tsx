@@ -18,6 +18,7 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 "use client";
+import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
@@ -52,7 +53,7 @@ export function MyHomePage() {
           className="flex items-center justify-center"
           prefetch={false}
         >
-          <img
+          <Image
             src={"./logo.png"}
             alt="K-ommerce Logo"
             className="h-10 w-10 glowing-button"
@@ -304,7 +305,7 @@ export function MyHomePage() {
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="relative overflow-hidden rounded-glass bg-glass shadow-glass backdrop-blur-glass border-glass">
                 <div className="relative z-10 bg-background/80 backdrop-blur-lg rounded-lg p-6 shadow-lg">
-                  <img
+                  <Image
                     src="./whiteshirt.png"
                     width="550"
                     height="550"
@@ -364,7 +365,7 @@ export function MyHomePage() {
             >
               <Card>
                 <CardHeader>
-                  <img
+                  <Image
                     src="./colorful.png"
                     width="300"
                     height="300"
@@ -384,7 +385,7 @@ export function MyHomePage() {
 
               <Card>
                 <CardHeader>
-                  <img
+                  <Image
                     src="./leatherbagpack.png"
                     width="300"
                     height="300"
@@ -402,7 +403,7 @@ export function MyHomePage() {
               </Card>
               <Card>
                 <CardHeader>
-                  <img
+                  <Image
                     src="./denimjacket.png"
                     width="300"
                     height="300"
@@ -420,7 +421,7 @@ export function MyHomePage() {
               </Card>
               <Card>
                 <CardHeader>
-                  <img
+                  <Image
                     src="./scarf.png"
                     width="300"
                     height="300"
@@ -668,21 +669,21 @@ export function MyHomePage() {
   );
 }
 
-// function MountainIcon(props) {
-//   return (
-//     <svg
-//       {...props}
-//       xmlns="http://www.w3.org/2000/svg"
-//       width="24"
-//       height="24"
-//       viewBox="0 0 24 24"
-//       fill="none"
-//       stroke="currentColor"
-//       strokeWidth="2"
-//       strokeLinecap="round"
-//       strokeLinejoin="round"
-//     >
-//       <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-//     </svg>
-//   );
-// }
+function MountainIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+    </svg>
+  );
+}
