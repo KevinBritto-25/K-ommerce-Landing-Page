@@ -454,9 +454,10 @@ export function MyHomePage() {
                   </div>
                   <p className="text-muted-foreground">
                     "K-ommerce has exceeded my expectations with the exceptional
-                    quality and sophisticated style of their products. Their
-                    offerings have significantly enhanced my wardrobe. Will
-                    surely recomend to friends and family."
+                    &quot;quality and sophisticated style&quot; of their
+                    products. Their &quot;offerings&quot; have significantly
+                    enhanced my wardrobe. I will surely recommend them to
+                    friends and family."
                   </p>
                 </CardContent>
               </Card>
@@ -476,10 +477,10 @@ export function MyHomePage() {
                     </div>
                   </div>
                   <p className="text-muted-foreground">
-                    "I am thoroughly impressed by the meticulous attention to
-                    detail and craftsmanship of the products from K-ommerce.
+                    &quot;I am thoroughly impressed by the meticulous attention
+                    to detail and craftsmanship of the products from K-ommerce.
                     They have become an essential part of my wardrobe. And will
-                    always rely on them."
+                    always rely on them.&quot;
                   </p>
                 </CardContent>
               </Card>
@@ -500,9 +501,9 @@ export function MyHomePage() {
                   </div>
                   <p className="text-muted-foreground">
                     “K-ommerce has consistently exceeded my expectations with
-                    their exceptional customer service. I’ve been a loyal
+                    their exceptional customer service. I&apos;ve been a loyal
                     customer for years and have never been disappointed. Used
-                    this platform for the 1st time.”
+                    this platform for the 1st time.&quot;”
                   </p>
                 </CardContent>
               </Card>
