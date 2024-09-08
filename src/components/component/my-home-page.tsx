@@ -453,11 +453,11 @@ export function MyHomePage() {
                     </div>
                   </div>
                   <p className="text-muted-foreground">
-                    "K-ommerce has exceeded my expectations with the exceptional
-                    &quot;quality and sophisticated style&quot; of their
-                    products. Their &quot;offerings&quot; have significantly
-                    enhanced my wardrobe. I will surely recommend them to
-                    friends and family."
+                    {`"K-ommerce has exceeded my expectations with the exceptional
+                       "quality and sophisticated style" of their
+                        products. Their "offerings" have significantly
+                         enhanced my wardrobe. I will surely recommend them to
+                       friends and family."`}
                   </p>
                 </CardContent>
               </Card>
