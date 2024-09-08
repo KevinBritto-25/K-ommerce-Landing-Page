@@ -454,9 +454,9 @@ export function MyHomePage() {
                   </div>
                   <p className="text-muted-foreground">
                     {`"K-ommerce has exceeded my expectations with the exceptional
-                       "quality and sophisticated style" of their
-                        products. Their "offerings" have significantly
-                         enhanced my wardrobe. I will surely recommend them to
+                      quality and sophisticated style of their
+                      products. Their offerings have
+                      enhanced my wardrobe. I will surely recommend them to
                        friends and family."`}
                   </p>
                 </CardContent>
@@ -477,10 +477,10 @@ export function MyHomePage() {
                     </div>
                   </div>
                   <p className="text-muted-foreground">
-                    &quot;I am thoroughly impressed by the meticulous attention
+                    {`"I am thoroughly impressed by the meticulous attention
                     to detail and craftsmanship of the products from K-ommerce.
                     They have become an essential part of my wardrobe. And will
-                    always rely on them.&quot;
+                    always rely on them."`}
                   </p>
                 </CardContent>
               </Card>
@@ -500,10 +500,10 @@ export function MyHomePage() {
                     </div>
                   </div>
                   <p className="text-muted-foreground">
-                    “K-ommerce has consistently exceeded my expectations with
-                    their exceptional customer service. I&apos;ve been a loyal
+                    {`“K-ommerce has consistently exceeded my expectations with
+                    their exceptional customer service. I've been a loyal
                     customer for years and have never been disappointed. Used
-                    this platform for the 1st time.&quot;”
+                    this platform for the 1st time.”`}
                   </p>
                 </CardContent>
               </Card>
