@@ -39,4 +39,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 This is the link 
 
-https://github.com/KevinBritto-25/K-ommerce-Landing-Page
+[https://github.com/KevinBritto-25/K-ommerce-Landing-Page](https://kevinbritto-25.github.io/K-ommerce-Landing-Page/)
